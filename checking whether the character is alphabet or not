@@ -1,0 +1,16 @@
+import java.util.*;
+class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner (System.in);
+        char ch;
+        System.out.println("enter the character");
+        ch=sc.next().charAt(6);
+        if((ch>='A')&&(ch<='Z')||(ch>='a')&&(ch<='z')){
+            System.out.println("THIS IS AN ALPHABET");
+
+        }
+        else{
+            System.out.println("THIS IS NOT AN ALPHABET");
+        }
+    }
+}

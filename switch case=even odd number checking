@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int a;
+        System.out.printf("enter NUMBER=");
+        a = sc.nextInt();
+        switch (a%2) {
+            case 0:
+                System.out.print("EVEN NUMBER");
+                break;
+            case 1:
+                System.out.print("ODD NUMBER");
+                break;
+
+
+        }
+    }
+}
+//NAME=NEHA SINGH
+//ROLL NO-50(2215001146)
